@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+
+# Large model weights (host externally — see README)
+model_ft.pth
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
