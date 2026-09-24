@@ -2,7 +2,7 @@
 
 A computer vision pipeline that detects vehicle collisions in surveillance/CCTV video by combining **object detection, multi-object tracking, motion/optical-flow analysis, and 3D CNN-based action classification**.
 
-> Built and extended from the original OrangeLabs Car Crash Detection project. This fork focuses on cleaning up the pipeline, packaging it for reproducibility, and documenting the CV/ML techniques involved. Original authorship credited below.
+> This fork focuses on cleaning up the pipeline, packaging it for reproducibility, and documenting the CV/ML techniques involved. Original authorship credited below.
 
 ## Overview
 
@@ -85,10 +85,3 @@ Sample outputs are available in `output_results/` (`Test.mp4`, `VIF_infer1.mp4`,
 - Real-time throughput has not been benchmarked on edge hardware.
 - Potential next steps: swap YOLOv4 for a lighter/newer detector, add ONNX/TensorRT export for faster inference, and expand the training set with more diverse crash/no-crash clips.
 
-## Acknowledgements
-
-Originally developed by the OrangeLabs team: Mohamed Magdi, Amr Eid, Esraa Hazem, and Mohamed Sbae. This repository builds on their work.
-
-## License
-
-Add a license (e.g. MIT) if you intend this to be reused by others.
